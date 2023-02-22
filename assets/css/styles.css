@@ -549,7 +549,7 @@ body.dark-theme {
 
 /*=============== FOOTER ===============*/
 .footer {
-  background-color: var(--first-color-lighten);
+  background-color: #dee2e6;
   padding-bottom: 2rem;
 }
 
