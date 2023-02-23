@@ -4,9 +4,9 @@
 :root {
   --header-height: 3rem;
   /*Colors*/
-  --hue: 51;
-  --sat: 100%;
-  --first-color: hsl(var(--hue), var(--sat), 56%);
+  --hue: 208;
+  --sat: 7%;
+  --first-color: hsl(var(--hue), var(--sat), 46%);
   --first-color-light: hsl(var(--hue), var(--sat), 85%);
   --first-color-lighten: hsl(var(--hue), var(--sat), 80%);
   --first-color-alt: hsl(var(--hue), var(--sat), 53%);
@@ -166,23 +166,15 @@ body.dark-theme {
 
 @keyframes animate {
   0% {
-    width: 0;
-  }
-
-  25% {
-    width: 15px;
+    transform: translateY(0px);
   }
 
   50% {
-    width: 30px;
-  }
-
-  75% {
-    width: 45px;
+    transform: translateY(-30px);
   }
 
   100% {
-    width: 60px;
+    transform: translateY(0px);
   }
 }
 
