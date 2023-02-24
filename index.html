@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!--BOXICONS-->
+    <!--================ BOXICONS ===============-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--=============== FONTAWESOME ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
     <!--CSS-->
     <link rel="stylesheet" href="./assets/css/styles.css">
     
     <title>Zebka Művek</title>
 
-    <!--FAVICON-->
+    <!--============== FAVICON ===============-->
     <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
 </head>
 <body>
@@ -44,6 +47,9 @@
                         <a href="#services" class="nav_link">Szolgáltatások</a>
                     </li>
                     <li class="nav_item">
+                        <a href="#colleague" class="nav_link">Kollégáink</a>
+                    </li>
+                    <li class="nav_item">
                         <a href="#gallery" class="nav_link">Galéria</a>
                     </li>
                     <li class="nav_item">
@@ -63,22 +69,21 @@
     </header>
 
     <main class="main">
-        <!--HOME-->
+        <!--=============== HOME ===============-->
         <section class="home section" id="home">
+            <img src="./assets/img/cover-img.jpg" class="home-img" alt="home image">
             <div class="home_container container grid">
-               <img src="./assets/img/home-img.svg" class="svg_img home_img" alt="home image">
+               <!--<img src="./assets/img/home-img.svg" class="svg_img home_img" alt="home image">-->
 
-                <div class="home_data">
-                    <h1 class="home-subtitle">Minden, ami</h1>
-                    <h1 class="home_title">villamosság</h1>
-                    <p class="home_description">Innovative electrical solutions for a sustainable future.</p>
-
-                </div>
-                
+                <!--<div class="home_data">
+                    <!--<h1 class="home-subtitle">Minden, ami</h1>-->
+                    <!--<h1 class="home_title">Zebka <br> Művek</h1>
+                    <!--<p class="home_description">Innovative electrical solutions for a sustainable future.</p>-->
+                <!--</div>-->
             </div>
         </section>
 
-        <!--ABOUT-->
+        <!--============== ABOUT ===============-->
         <section class="about section container" id="about">
             <div class="about_container grid">
                 <div class="about_data">
@@ -94,34 +99,24 @@
                         A szatmári régióban forduljanak hozzánk!</p>
                 </div>
 
-                <img src="./assets/img/about-image.svg" class="svg_img about_img" alt="about image">
+                <img src="./assets/img/about-image.png" class="svg_img about_img" alt="about image">
                 
             </div>
         </section>
 
-        <!--SERVICES-->
+        <!--============= SERVICES =============-->
         <section class="services section container" id="services">
             <h2 class="section_title">Néhány szolgáltatás, <br> amit ajánlunk</h2>
 
             <div class="services_container grid">
                 <div class="services_data">
-                    <h3 class="services_subtitle">Pénzvisszafizetési garancia</h3>
+                    <a href="#contact">
+                        <h3 class="services_subtitle">Fűtés-hűtés vezérlő automatika telepítés és beüzemelés</h3>
 
-                    <img class="services_img" src="./assets/img/services1-image.svg" alt="services image">
+                        <img class="services_img" src="./assets/img/services1-image.svg" alt="services image">
 
-                    <p class="services_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, assumenda deserunt.</p>
-
-                    <div>
-                        <!--<a href="#" class="button button-link">Tovább</a>-->
-                    </div>
-                </div>
-
-                <div class="services_data">
-                    <h3 class="services_subtitle">0-24 országos ügyeleti szolgáltatás</h3>
-
-                    <img src="./assets/img/services2-image.svg" alt="services image" class="services_img">
-
-                    <p class="services_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <p class="services_description">telepítés, szerviz, felülvizsgálat</p>
+                    </a>
 
                     <div>
                         <!--<a href="#" class="button button-link">Tovább</a>-->
@@ -129,25 +124,85 @@
                 </div>
 
                 <div class="services_data">
-                    <h3 class="services_subtitle">Gyors ügyintézés</h3>
+                    <a href="#contact">
+                        <h3 class="services_subtitle">Épületgépészeti mérnöki szolgáltatások</h3>
 
-                    <img src="./assets/img/services3-image.svg" alt="services image" class="services_img">
+                        <img src="./assets/img/services2-image.svg" alt="services image" class="services_img">
 
-                    <p class="services_description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias rerum illo architecto.</p>
+                        <p class="services_description">tervezés, ellenőrzés, hidraulikai és légtechnikai beszabályozás</p>
+                    </a>
+                <div>
+                        <!--<a href="#" class="button button-link">Tovább</a>-->
+                    </div>
+                </div>
 
-                    <div>
+                <div class="services_data">
+                    <a href="#contact">
+                        <h3 class="services_subtitle">Villanyszerelés</h3>
+
+                        <img src="./assets/img/services3-image.svg" alt="services image" class="services_img">
+
+                        <p class="services_description">családi házak teljeskörű villanyszerelése, új építés és felújítás esetén is</p>
+                    </a>
+                <div>
                         <!--<a href="#" class="button button-link">Tovább</a>-->
                     </div>
                 </div>
             </div>
         </section>
+
+        <!--=============== COLLEAGUE ===============-->
+        <!--<section class="colleague section container" id="colleague">
+            <h2 class="section_title">Kollégáink</h2>
+
+            <div class="services_container grid">
+                <div class="services_data">
+                        <img src="./assets/img/colleague-1-img.webp" alt="colleague image" class="colleague_img">
+
+                    <h3 class="services_subtitle">Balogh Béla</h3>
+
+                    <P class="services_description">Villanyszerelő</P>
+                </div>
+
+                <div class="services_data">
+                    <img src="./assets/img/colleague-1-img.webp" alt="colleague image" class="colleague_img">
+
+                <h3 class="services_subtitle">Balogh Béla</h3>
+
+                <P class="services_description">Villanyszerelő</P>
+            </div>
+
+            <div class="services_data">
+                <img src="./assets/img/colleague-1-img.webp" alt="colleague image" class="colleague_img">
+
+            <h3 class="services_subtitle">Balogh Béla</h3>
+
+            <P class="services_description">Villanyszerelő</P>
+        </div>
+            </div>
+        </section>-->
 
         <!--=============== GALLERY ===============-->
     <section class="gallery section" id="gallery">
         <h2 class="section_title">Galéria</h2>
   
         <div class="gallery-container container grid">
-          <div class="image-gallery">
+            <div class="wrapper">
+                <i class="fa-solid fa-angle-left"></i>
+                <div class="carousel">
+                    <img src="./assets/img/gallery1-img.svg" alt="gallery image">
+                    <img src="./assets/img/gallery2-img.svg" alt="gallery image">
+                    <img src="./assets/img/gallery3-img.svg" alt="gallery image">
+                    <img src="./assets/img/gallery4-img.svg" alt="gallery image">
+                    <img src="./assets/img/gallery5-img.svg" alt="gallery image">
+                    <img src="./assets/img/gallery6-img.svg" alt="gallery image">
+                    <img src="./assets/img/gallery7-img.svg" alt="gallery image">
+                    <img src="./assets/img/gallery8-img.svg" alt="gallery image">
+                </div>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+            
+          <!--<div class="image-gallery">
             <a href="./assets/img/gallery1-img.svg" target="_blank" class="img-1">
               <i class="icon bx bx-bracket"></i>
             </a>
@@ -179,7 +234,7 @@
             <a href="./assets/img/gallery8-img.svg" target="_blank" class="img-8">
               <i class="icon bx bx-bracket"></i>
             </a>
-          </div>
+          </div> -->
         </div>
       </section>
 
@@ -188,17 +243,53 @@
             <div class="contact_container grid">
                 <div class="contact_content">
                     <h2 class="section_title-center">Lépjen velünk <br> kapcsolatba</h2>
-                    <p class="contact_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est commodi, ex id vero officiis voluptatum debitis enim porro. Dolor aliquam incidunt tempore veniam.</p>
+                    <!--<p class="contact_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est commodi, ex id vero officiis voluptatum debitis enim porro. Dolor aliquam incidunt tempore veniam.</p>-->
                 </div>
 
                 <ul class="contact_content grid">
-                    <li class="contact_address">Telefon: <span class="contact_information"> 999 - 888 - 777</span></li>
-                    <li class="contact_address">E-mail: <span class="contact_information"> info@email.com</span></li>
-                    <li class="contact_address">Címünk: <span class="contact_information"> Érd</span></li>
+                    <li class="contact_address">Épületgépészet mobilszám: <span class="contact_information"> 999 - 888 - 777</span></li>
+                    <!--<li class="contact_address">Épületgépészet e-mail: <span class="contact_information"> info@email.com</span></li>-->
+                    <li class="contact_address">Villanyszerelés mobilszám: <span class="contact_information"> 999 - 888 - 777</span></li>
+                    <!--<li class="contact_address">Villanyszerelés e-mail: <span class="contact_information"> info@email.com</span></li>-->
+                    <!--<li class="contact_address">Címünk: <span class="contact_information"> Érd</span></li>-->
                 </ul>
 
                 <div class="contact_content">
-                    <a href="#" class="button">Üzenet küldése</a>
+                    <h2 class="contact-title">Üzenet küldése</h2>
+                    <div class="value-accordion">
+                        <div class="value-accordion-item">
+                          <header class="value-accordion-header">
+                            <h3 class="value-accordion-title">
+                              Épületgépészet
+                            </h3>
+                            <div class="value-accordion-arrow">
+                              <i class="bx bxs-down-arrow"></i>
+                            </div>
+                          </header>
+          
+                          <div class="value-accordion-content">
+                            <a href="#" class="button contact-button">Üzenet küldése</a>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="value-accordion">
+                        <div class="value-accordion-item">
+                          <header class="value-accordion-header">
+                            <h3 class="value-accordion-title">
+                              Villanyszerelés
+                            </h3>
+                            <div class="value-accordion-arrow">
+                              <i class="bx bxs-down-arrow"></i>
+                            </div>
+                          </header>
+          
+                          <div class="value-accordion-content">
+                            <a href="#" class="button contact-button">Üzenet küldése</a>
+                          </div>
+                        </div>
+                    </div>
+                    <!--<a href="#" class="button">Üzenet küldése</a>-->
                 </div>
             </div>
         </section>
@@ -215,9 +306,9 @@
             <div class="footer_content">
                 <h3 class="footer_title">Szolgáltatásaink</h3>
                 <ul class="footer_links">
-                    <li><a href="#" class="footer_link"></a></li>
-                    <li><a href="#" class="footer_link"></a></li>
-                    <li><a href="#" class="footer_link"></a></li>
+                    <li><a href="#services" class="footer_link">Fűtés-hűtés vezérlő automatika telepítés és beüzemelés</a></li>
+                    <li><a href="#services" class="footer_link">Épületgépészeti mérnöki szolgáltatások</a></li>
+                    <li><a href="#services" class="footer_link">Villanyszerelés</a></li>
                 </ul>
             </div>
 
