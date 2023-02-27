@@ -387,6 +387,10 @@ body.dark-theme {
   border-radius: 1rem;
 }
 
+.services_description {
+  color: var(--title-color);
+}
+
 /*=============== COLLEAGUE ===============*/
 /*.colleague_img {
   width: 135px;
@@ -887,7 +891,7 @@ body.dark-theme {
     display: block;
   }
   .svg_img {
-    width: 470px;
+    width: 330px;
   }
   .about_container,
   .contact_container {
