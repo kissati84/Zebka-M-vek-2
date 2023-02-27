@@ -419,6 +419,7 @@ body.dark-theme {
 
 .wrapper i:first-child {
   left: -23px;
+  display: none;
 }
 
 .wrapper i:last-child {
@@ -430,6 +431,16 @@ body.dark-theme {
   cursor: pointer;
   overflow: hidden;
   white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+.carousel.dragging {
+  cursor: grab;
+  scroll-behavior: auto;
+}
+
+.carousel.dragging img {
+  pointer-events: none;
 }
 
 .carousel img {
@@ -437,7 +448,7 @@ body.dark-theme {
   object-fit: cover;
   margin-left: 14px;
   width: calc(100% / 3);
-  border-radius: 1rem;
+  /*border-radius: 1rem;*/
 }
 
 .carousel img:first-child {
@@ -926,7 +937,7 @@ body.dark-theme {
 }
 
 @media screen and (min-width: 1280px) {
-  .gallery-container {
+  /*.gallery-container {
     padding: 2rem 10rem 1rem;
-  }
+  }*/
 }
