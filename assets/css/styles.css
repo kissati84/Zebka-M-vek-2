@@ -1003,12 +1003,12 @@ body.dark-theme {
     margin: 0 auto;
     margin-top: 3rem;
 }
-.home-img-3 {
-  width: 620px;
-  margin-top: 25rem;
-  left: 41rem;
-  right: 0;
-}
+  .home-img-3 {
+    width: 620px;
+    margin-top: 25rem;
+    left: 41rem;
+    right: 0;
+  }
   /*.gallery-container {
     padding: 2rem 10rem 1rem;
   }*/
@@ -1028,10 +1028,42 @@ body.dark-theme {
       zoom: 1.5;
     }
   }
+
+  @media screen and (min-width: 3200px) {
+    .home-img-3 {
+      margin-top: 25rem;
+      left: 70rem;
+      right: 0px;
+    }
+  }
+
+  @media screen and (min-width: 3440px) {
+    body {
+      zoom: 1.6;
+    }
+  }
   
   @media screen and (min-width: 3840px) {
     body {
       zoom: 2;
+    }
+  }
+
+  @media screen and (min-width: 5120px) {
+    body {
+      zoom: 2.6;
+    }
+  }
+
+  @media screen and (min-width: 6400px) {
+    body {
+      zoom: 3.3;
+    }
+  }
+
+  @media screen and (min-width: 7680px) {
+    body {
+      zoom: 4;
     }
   }
 
